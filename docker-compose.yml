@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  node:
+    image: byob
+    ports: 
+      - "0.0.0.0:80:80"
