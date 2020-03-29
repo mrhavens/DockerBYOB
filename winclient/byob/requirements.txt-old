@@ -21,4 +21,5 @@ pycryptodome==3.8.1;python_version<'3'
 
 opencv-python==3.4.3.18;python_version<'3'
 
+pyHook==1.5.1;sys.platform=='win32'
 pypiwin32==223;sys.platform=='win32'
