@@ -4,4 +4,4 @@ services:
   node:
     image: byob/server:latest
     ports: 
-      - "0.0.0.0:80:80"
+      - "0.0.0.0:433:433"
