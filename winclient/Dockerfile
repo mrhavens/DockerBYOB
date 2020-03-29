@@ -1,7 +1,7 @@
 FROM python:latest
 
 WORKDIR /usr/src/app
-COPY byob .
+COPY . .
 
 WORKDIR /usr/src/app/byob
 RUN pip install --no-cache-dir -r requirements.txt
